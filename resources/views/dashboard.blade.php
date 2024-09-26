@@ -1,7 +1,11 @@
 <x-admin-layout>
+    <x-slot:title>
+        Dashboard
+    </x-slot>
+
     <div class="pagetitle">
         <h1>Dashboard</h1>
-        <nav>
+        <nav>w
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
             <li class="breadcrumb-item active">Dashboard</li>
