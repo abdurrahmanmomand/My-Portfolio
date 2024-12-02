@@ -21,8 +21,7 @@ Route::get('/',[FrontendController::class,'index'])->name('wellcome');
 
 Route::get('/dashboard',function(){
     return view('dashboard');
-})
-    ->middleware(['auth', 'verified'])
+})->middleware(['auth', 'verified'])
     ->name('dashboard');
 
 Route::view('services', 'services')

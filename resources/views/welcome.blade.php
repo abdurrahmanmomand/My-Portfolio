@@ -121,7 +121,7 @@
                 }
                 ?> </h2>
             <p class="fst-italic py-3">
-             {{ $profile->about }}
+                {{$information->extrainformation}}
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -141,9 +141,7 @@
                 </ul>
               </div>
             </div>
-            <p class="py-3">
-                {{$information->extrainformation}}
-            </p>
+
           </div>
         </div>
 
@@ -152,49 +150,7 @@
     </section><!-- /About Section -->
 
     <!-- Stats Section -->
-    <section id="stats" class="stats section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
 
     <!-- Skills Section -->
     <section id="skills" class="skills section light-background">
@@ -250,7 +206,7 @@
 
             <div class="resume-item pb-0">
               <h4>{{$profile->fullname}}</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <p><em>As a junior developer specializing in the Laravel PHP framework, I am committed to building robust and dynamic web applications. I strive to enhance my skills by embracing challenges and delivering innovative solutions.</em></p>
               <ul>
                 <li>{{$profile->address}}</li>
                 <li>{{$profile->phone}}</li>
@@ -300,7 +256,7 @@
     <!-- Portfolio Section -->
  <!-- Assuming you have a main layout -->
 
-<section id="portfolio" class="portfolio section light-background">
+{{-- <section id="portfolio" class="portfolio section light-background">
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
@@ -337,18 +293,18 @@
 
         </div>
     </div>
-</section><!-- /Portfolio Section -->
+</section><!-- /Portfolio Section --> --}}
 
 
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    {{-- <section id="services" class="services section">
 
-      <!-- Section Title -->
+
       <div class="container section-title" data-aos="fade-up">
         <h2>{{$service->title}}</h2>
     <p>{{$service->about}}</p>
-    </div><!-- End Section Title -->
+    </div>
 
       <div class="container">
 
@@ -360,22 +316,22 @@
                   <h4 class="title"><a href="service-details.html" class="stretched-link">{{$service->name}}</a></h4>
                   <p class="text-break">{{$service->about}}</p>
                 </div>
-              </div><!-- End Service Item -->
+              </div>
           @endforeach
         </div>
 
       </div>
 
-    </section><!-- /Services Section -->
+    </section><!-- /Services Section --> --}}
 
     <!-- Testimonials Section -->
-    <section id="testimonial" class="testimonials section light-background">
+    {{-- <section id="testimonial" class="testimonials section light-background">
 
-      <!-- Section Title -->
+
       <div class="container section-title" data-aos="fade-up">
         <h2>{{$testimonial->title}}</h2>
        <p>{{$testimonial->about}}</p>
-    </div><!-- End Section Title -->
+    </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -420,7 +376,7 @@
                 <h3>{{$testimonial->name}}</h3>
                 <h4>{{$testimonial->job}}</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
             @endforeach
 
           </div>
@@ -429,7 +385,7 @@
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section><!-- /Testimonials Section --> --}}
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -540,7 +496,7 @@
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <b>Abdull Rahman</b>
       </div>
     </div>
 
